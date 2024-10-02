@@ -6,8 +6,8 @@ echo "
 
 d8888b. db   db 
 88  `8D 88   88       
-88   88 88ooo88           DaRk.HuNtEr
-88   88 88~~~88           V.118
+88   88 88ooo88           echo (set_color -o green) "Dark-Hunter"
+88   88 88~~~88           echo (set_color -o green) "V18"
 88  .8D 88   88 
 Y8888D' YP   YP"
 echo ""
