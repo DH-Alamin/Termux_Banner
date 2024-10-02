@@ -51,6 +51,7 @@ setban(){
     echo -en "${boxq} ${g}Enter Bar Name${n}: "
     read name
     echo "set name \"${name}\""> $HOME/.config/fish/functions/fish_prompt.fish
+    cat $HOME/.config/fish/functions/temp.fish >> $HOME/.config/fish/functions/fish_prompt.fish
 }
 
 main(){
@@ -83,4 +84,3 @@ echo -e "${boxg} ${g}Downloading Functions File${n}"
 (curl https://raw.githubusercontent.com/xero/figlet-fonts/refs/heads/master/ANSI%20Regular.flf -o $HOME/../usr/share/figlet/ar.flf) &> /dev/null & spin
 main
 rm -rf $HOME/.config/fish/functions/temp.fish
-rm -rf $HOME/.config/fish/temp2.fish
