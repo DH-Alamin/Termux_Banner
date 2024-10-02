@@ -23,12 +23,6 @@ setfile(){
     else
     touch $HOME/.config/fish/functions/fish_prompt.fish
     fi
-    if [ -f $HOME/.config/fish/config.fish ]; then
-    rm -rf $HOME/.config/fish/config.fish
-    touch $HOME/.config/fish/config.fish
-    else
-    touch $HOME/.config/fish/config.fish
-    fi
 }
 
 termpro(){
