@@ -1,5 +1,5 @@
 echo ""
-set_color -o white 
+set_color -o white
 echo "
 
 
