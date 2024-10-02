@@ -1,6 +1,9 @@
 echo ""
-set_color -o green
-echo "           ===
+set_color -o white 
+echo "
+
+
+
 d8888b. db   db 
 88  `8D 88   88       
 88   88 88ooo88           DaRk.HuNtEr
