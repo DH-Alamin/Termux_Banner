@@ -40,6 +40,6 @@ echo "           ===
 echo ""
 set_color -o blue
 echo "                                  DaRk.HuNtEr"
-echo "                                  V.118"
+echo "                                     V.118"
 echo ""
 set_color normal
